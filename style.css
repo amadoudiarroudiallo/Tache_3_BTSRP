@@ -159,6 +159,7 @@ button{
     top: 0;
     left: 0;
     width: 100%;
+    background-color:  rgb(12, 0, 46,05) ;
     -webkit-box-shadow:0 4px 6px 0 rgb(12, 0, 46,05);
     box-shadow: 0 4px 6px 0 rgb(12, 0, 46,05);
 }
@@ -169,12 +170,12 @@ button{
     transition: 0.3s;
 }
 
-/* 3 banner */
+/*---------------- 3 banner ---------------*/
 .banner-wrapper{
     width: 100%;
     height: auto;
     min-height: 650px;
-    background: url("images/bg-image.jpg");
+    background: url("image/images/bg-image.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -182,4 +183,18 @@ button{
     padding: 200px 0 100px 0;
 }
 
-/* 4 about  */
+/*-------------- 4 about us --------------*/
+.about_wrapper ul.nav-pills{
+    border: 1px solid grey;
+    border-radius: 50px;
+}
+
+.about_wrapper ul li .nav-link{
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.45s cubic-bezier(0,0,0.2,1);
+    display: inline-block;
+    color: grey;
+    border: 0;
+}
