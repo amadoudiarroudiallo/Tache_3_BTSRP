@@ -39,6 +39,11 @@ h3{
     margin: auto;
 }
 
+/* portfolio */
+.portfolio_wrapper .card{
+    min-height: 400px;
+}
+
 }
 
 
@@ -68,6 +73,11 @@ h3{
 
     .about_wrapper ul li .nav-link{
         font-size: 13px;
+    }
+
+    /* portfolio */
+    .portfolio_wrapper .card{
+        min-height: 500px;
     }
     
 } 
