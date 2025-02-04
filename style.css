@@ -74,15 +74,16 @@ p{
     line-height: 28px;
     letter-spacing: 1px;
     font-weight: 400;
+    margin-top: 40px;
 }
 
 .subtitle{
     display: inline-block;
     font-weight: 600;
     letter-spacing: 0.5px;
-    font-size: 16px;
-    margin-bottom: 12px;
-    background-color: rgb(36, 36, 124);
+    font-size: 18px;
+    margin-bottom: 36px;
+    background: linear-gradient(45deg, red, blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -197,4 +198,53 @@ button{
     display: inline-block;
     color: grey;
     border: 0;
+}
+
+.about_wrapper ul li .nav-link.active{
+    background-color: rgb(236, 60, 60);
+}
+
+.about_wrapper .single-proress{
+    margin-top: 26px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about_wrapper .single-proress .progress{
+    height: 4px;
+    border-radius: 4px;
+    box-shadow: none;
+    background-color: #fff;
+    overflow:visible;
+}
+
+.about_wrapper .single-proress .progress .progress-bar{
+    background: linear-gradient(45deg, red, blue);
+}
+
+.about_wrapper .single-proress h6{
+    text-align: left;  
+}
+
+.about_wrapper .single-proress .label{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: grey;
+    font-size: 15px;
+}
+
+.about_wrapper .tab-pane li{
+    color: grey;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    list-style: none;
+}
+
+.about_wrapper .tab-pane li a{
+    font-weight: 500;
+    display: block;
+    color: grey;
+    text-decoration: none;
 }
