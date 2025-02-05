@@ -309,6 +309,7 @@ button{
 
 .contact_wrapper .call_details{
     color: grey;
+    margin-top: 40px;
 }
 
 .contact_wrapper .call_details a{
