@@ -286,3 +286,33 @@ button{
 .portfolio_wrapper .card:hover span{
     background-position: bottom center;
 }
+
+
+/* section contect */
+.contact_wrapper .form-control,
+.contact_wrapper textarea{
+    background-color: transparent;
+    border-color: grey;
+    color: grey;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+
+.contact_wrapper .form-control:hover,
+.contact_wrapper textarea:hover,
+.contact_wrapper .form-control:focus,
+.contact_wrapper textarea:focus{
+    border-color: rgb(236, 60, 60);
+    color: #fff;
+}
+
+.contact_wrapper .call_details{
+    color: grey;
+}
+
+.contact_wrapper .call_details a{
+    font-weight: 700;
+    color: grey;
+    text-decoration: none;
+}
